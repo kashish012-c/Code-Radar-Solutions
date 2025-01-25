@@ -6,6 +6,6 @@ int main() {
     scanf("%f",&b);
     float c;
     c=a*b;
-    printf("Proudct: %f",c);
+    printf("Proudct: %2f",c);
     return 0;
 }
