@@ -7,7 +7,7 @@ int main(){
     int d;
     d=a+b+c;
     float e;
-    e=d/3;
+    e=d/3.0;
     printf("Average: %.2f",e);
     return 0;
 }
