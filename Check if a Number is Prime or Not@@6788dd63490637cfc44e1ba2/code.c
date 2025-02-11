@@ -7,7 +7,7 @@ int main() {
             x=0;
             break;
         }
-        i++
+        i++;
      }
      if(x==0){
         printf("Not Prime");
