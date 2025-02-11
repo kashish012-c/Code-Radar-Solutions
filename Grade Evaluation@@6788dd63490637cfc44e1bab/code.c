@@ -8,6 +8,7 @@ int main() {
           break;
         case 'B':
           printf("Good");
+          break;
          case 'C':
           printf("Average");
           break;
