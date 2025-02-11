@@ -5,6 +5,7 @@ int main() {
     switch(ch){
         case 'R':
          printf("Stop");
+         break;
         case 'G':
          printf("Go");
          break;
