@@ -33,10 +33,10 @@ int main() {
         case '*': printf("%d",a*b);
                   break;
         case '/': 
-            if(b==0){
+        if(b==0){
                 printf("error");
             } 
-            else{printf("%d",a/b);}
+        else{printf("%d",a/b);}
             break;          
     }  
     return 0;
