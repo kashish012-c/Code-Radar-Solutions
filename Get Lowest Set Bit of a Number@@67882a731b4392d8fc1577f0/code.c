@@ -1,7 +1,12 @@
 #include<stdio.h>
 int main(){
-    int n,lsb;
+    int n;
     scanf("%d",&n);
-    lsb= n & -n;
-    printf("%d",n);
+    int postion;
+    while((n&1)==0){
+        n >>= 1;
+        postion++;
+    }
+    printf("%d",postion);
+    
 }
