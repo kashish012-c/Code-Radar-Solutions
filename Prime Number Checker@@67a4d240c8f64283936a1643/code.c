@@ -1,10 +1,11 @@
 #include <stdio.h>
+int isPrime(int num);
 int main(){
     int t;
     scanf("%d",&t);
     while(t--){
         int num;
-        scan("%d",&num);
+        scanf("%d",&num);
         printf("%d\n", isPrime(num));
     }
     return 0;   
