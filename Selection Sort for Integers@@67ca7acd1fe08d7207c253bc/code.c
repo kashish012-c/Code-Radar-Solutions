@@ -7,6 +7,9 @@ void selectionSort(int arr[],int n){
                 si=j;
             }
         }
+        int temp=arr[i];
+        arr[i]=arr[si];
+        arr[si]=temp;
     }
 }
 void printArray(int arr[],int n){
