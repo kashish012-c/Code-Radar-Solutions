@@ -7,9 +7,10 @@ void selectionSort(char arr[],int n){
                 si=j;
             }
         }
+        if(si!=i){
         char temp=arr[i];
         arr[i]=arr[si];
-        arr[si]=arr[i];
+        arr[si]=arr[i];}
     }
 }
 void printArray(char arr[],int n){
