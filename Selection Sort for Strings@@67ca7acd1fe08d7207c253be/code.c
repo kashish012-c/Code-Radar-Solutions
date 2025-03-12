@@ -8,7 +8,7 @@ void selectionSort(char arr[][100],int n){
                si=j;
             }
         }
-        char temp;
+        char temp[100];
         strcpy(temp,arr[i]);
         strcpy(arr[i],arr[si]);
         strcpy(arr[si],temp);
