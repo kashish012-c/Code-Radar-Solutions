@@ -4,7 +4,7 @@ void selectionSort(char arr[][100],int n){
     for(int i=0;i<n-1;i++){
         int si=i;
         for(int j=i+1;j<n;j++){
-            if(strcmp(arr[j],arr[si])<0){
+            if(strcmp(arr[j],arr[si])<0){ //returns -ve value i str1<str2.
                si=j;
             }
         }
