@@ -8,11 +8,11 @@ void selectionSort(char arr[][100],int n){
                si=j;
             }
         }
-        if(arr[si]!=arr[i])(
-        char temp[100];
-        strcpy(temp,arr[i]);
-        strcpy(arr[i],arr[si]);
-        strcpy(arr[si],temp);)
+        if(arr[si]!=arr[i]){
+            char temp[100];
+            strcpy(temp,arr[i]);
+            strcpy(arr[i],arr[si]);
+            strcpy(arr[si],temp);}
     }
 }
 void printArray(char arr[][100], int n){
