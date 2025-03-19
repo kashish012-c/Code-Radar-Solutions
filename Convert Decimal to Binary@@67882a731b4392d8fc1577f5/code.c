@@ -12,7 +12,7 @@ int main(){
         if(bit==1){
             leadingzero=0;
         }
-        if(leadingzero){
+        if(!leadingzero){
             printf("%d",bit);
         }
     
