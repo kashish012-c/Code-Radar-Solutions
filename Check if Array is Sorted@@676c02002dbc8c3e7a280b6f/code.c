@@ -7,11 +7,11 @@ int main(){
         scanf("%d",&arr[i]);
     }
     for(int i=1;i<=n;i++){
-        if(arr[i]<=arr[i+1]){
-            printf("Sorted");
-        }
-        else{
+        if(arr[i]<=arr[i+1]);
+        else if(arr[i]>arr[i+1]){
             printf("Not Sorted");
+            break;
         }
     }
+    printf("Sorted");
 }
