@@ -6,6 +6,6 @@ int main(){
         for(j=1;j<=n;j++){
             printf("%c ",64+j);
         }
+        printf("\n");
     }
-    printf("\n");
 }
