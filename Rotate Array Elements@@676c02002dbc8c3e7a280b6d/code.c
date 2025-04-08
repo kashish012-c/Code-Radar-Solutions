@@ -13,14 +13,14 @@ int main() {
     for (int i = 0; i < r; i++) {
         temp[i] = arr[i];
     }
-    for (int i = 0; i < n - r; i++) {
-        arr[i] = arr[i + r];
+    for (int i = r; i < n; i++) {
+        arr[i - r] = arr[i];
     }
     for (int i = 0; i < r; i++) {
         arr[n - r + i] = temp[i];
     }
     for (int i = 0; i < n; i++) {
-        printf("%d\n ", arr[i]);
+        printf("%d ", arr[i]);
     }
     return 0;
 }
